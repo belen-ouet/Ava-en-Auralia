@@ -1,0 +1,471 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9175578356478188445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 56, y: 72}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -9175578356478188445}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -7060134629664327690}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -9175578356478188445}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 900453740106720097}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: CAPIARCE
+  dialogueLine: "Mis amigos los patocastores est\xE1n en apuros... Los robots est\xE1n
+    contaminando el r\xEDo en el que viven y no tienen ning\xFAn lugar adonde ir..."
+  spriteR: {fileID: 21300000, guid: ce19919868bcf454cac4cd3e9d012ee0, type: 3}
+  spriteL: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 638029f955e09a54a954206a9ad0856b, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  textNotes: 
+--- !u!114 &-7060134629664327690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1176, y: -152}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -7060134629664327690}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -1018216052858019229}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -7060134629664327690}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -9175578356478188445}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: AVA
+  dialogueLine: "\xBFQu\xE9 pasa?"
+  spriteR: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteL: {fileID: 21300000, guid: 1c0eecd091941f746ba2719a038088fa, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 638029f955e09a54a954206a9ad0856b, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  textNotes: 
+--- !u!114 &-6003946439441474371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 504, y: -152}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -6003946439441474371}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -614272479120021263}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -6003946439441474371}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 6969976286902181976}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: CAPIARCE
+  dialogueLine: "Wow, lo has dejado todo m\xE1s limpio que una patena. Y no parece
+    que quede ning\xFAn robot por aqu\xED... Gracias por todo Ava."
+  spriteR: {fileID: 21300000, guid: bd5d60356ee2a6f44a34ad430c5d68b1, type: 3}
+  spriteL: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 638029f955e09a54a954206a9ad0856b, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  textNotes: 
+--- !u!114 &-3451332171438922047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 56, y: -152}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -3451332171438922047}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -235397657425834305}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -3451332171438922047}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -614272479120021263}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: CAPIARCE
+  dialogueLine: "\xA1Ava! \xA1Has vuelto sana y salva!"
+  spriteR: {fileID: 21300000, guid: ce19919868bcf454cac4cd3e9d012ee0, type: 3}
+  spriteL: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 638029f955e09a54a954206a9ad0856b, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  textNotes: 
+--- !u!114 &-1018216052858019229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 952, y: -152}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -1018216052858019229}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 6969976286902181976}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -1018216052858019229}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -7060134629664327690}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: CAPIARCE
+  dialogueLine: Ava, tengo que pedirte una cosa...
+  spriteR: {fileID: 21300000, guid: 4708d7e1dd14d3a47b70ca77ea659d2d, type: 3}
+  spriteL: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 638029f955e09a54a954206a9ad0856b, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  textNotes: 
+--- !u!114 &-614272479120021263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 280, y: -152}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -614272479120021263}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -3451332171438922047}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -614272479120021263}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -6003946439441474371}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: AVA
+  dialogueLine: "\xA1Hola se\xF1or Capiarce! Creo que ya est\xE1 todo limpio."
+  spriteR: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteL: {fileID: 21300000, guid: 82c613d1c295cbb4c82d6eecc8623693, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 638029f955e09a54a954206a9ad0856b, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  textNotes: 
+--- !u!114 &-235397657425834305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db3fd0e2172fd2428eeabeecc1b7739, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -200, y: -152}
+  ports:
+    keys:
+    - exit
+    values:
+    - _fieldName: exit
+      _node: {fileID: -235397657425834305}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -3451332171438922047}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  exit: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c04ec1ec85a884fb75aeacc7ee8c17, type: 3}
+  m_Name: DialogueGraph2
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -235397657425834305}
+  - {fileID: -614272479120021263}
+  - {fileID: -6003946439441474371}
+  - {fileID: -9175578356478188445}
+  - {fileID: 900453740106720097}
+  - {fileID: -3451332171438922047}
+  - {fileID: -1018216052858019229}
+  - {fileID: 6969976286902181976}
+  - {fileID: -7060134629664327690}
+  current: {fileID: -9175578356478188445}
+--- !u!114 &900453740106720097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 280, y: 72}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 900453740106720097}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -9175578356478188445}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 900453740106720097}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: AVA
+  dialogueLine: "No se preocupe. \xA1Ahora mismo voy para all\xE1!"
+  spriteR: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteL: {fileID: 21300000, guid: 6ad98aeb082c75b499a5d3c864b33365, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 638029f955e09a54a954206a9ad0856b, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  textNotes: 
+--- !u!114 &6969976286902181976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 728, y: -152}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 6969976286902181976}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -6003946439441474371}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 6969976286902181976}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -1018216052858019229}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: AVA
+  dialogueLine: "\xA1No es nada! La verdad es que ha sido muy divertido."
+  spriteR: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteL: {fileID: 21300000, guid: 715d2c7cafa75924fbe48e35996b08c7, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 638029f955e09a54a954206a9ad0856b, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  textNotes: 

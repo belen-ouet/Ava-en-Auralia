@@ -1,0 +1,511 @@
+fileFormatVersion: 2
+guid: 83306b5d51646414abff2296894ef298
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ava_red_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 767
+        width: 148
+        height: 240
+      alignment: 9
+      pivot: {x: 0.61, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a789c7a7b82c4499d27604b267f367
+      internalID: 1237372285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_red_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 700
+        width: 185
+        height: 308
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7163599cfcd244f8d5a8575c90880f
+      internalID: -1915381692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_red_2
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 704
+        width: 200
+        height: 303
+      alignment: 9
+      pivot: {x: 0.715, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670287593d6c679409a854b0564d44bd
+      internalID: 21121376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_red_3
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 705
+        width: 202
+        height: 302
+      alignment: 9
+      pivot: {x: 0.71, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2504f8508c50fb24cb30ba0742c185ee
+      internalID: 1147762218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_red_4
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 704
+        width: 206
+        height: 303
+      alignment: 9
+      pivot: {x: 0.72, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d51e4a31cfafb74ca2afc91d4d1e3eb
+      internalID: 1179770619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_red_5
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 631
+        width: 182
+        height: 376
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64911646867ef0c4d89823f9558f2d19
+      internalID: 1737751826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_red_7
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 635
+        width: 298
+        height: 375
+      alignment: 9
+      pivot: {x: 0.27, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b79cab2eb2c5942aa5524a4160c69e
+      internalID: -1287362555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_red_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 304
+        width: 322
+        height: 287
+      alignment: 9
+      pivot: {x: 0.22, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a340f0e302ce7734bb9e4e69dafa8221
+      internalID: -2001037584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_red_9
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 375
+        width: 312
+        height: 215
+      alignment: 9
+      pivot: {x: 0.165, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba33f96973c6e66438a8e7ab245db08f
+      internalID: -1303484995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_red_11
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 377
+        width: 323
+        height: 214
+      alignment: 9
+      pivot: {x: 0.165, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c447e51ff0f934d9ce0dea0c608e37
+      internalID: -1749201912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_red_12
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 379
+        width: 317
+        height: 211
+      alignment: 9
+      pivot: {x: 0.165, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f7c4fbe6577a544a0c5c5f3f7c4acd
+      internalID: 906565548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_red_13
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 381
+        width: 313
+        height: 209
+      alignment: 9
+      pivot: {x: 0.155, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a76475afdba41c40a2c6f0a2439ce57
+      internalID: -1822600820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_red_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 54
+        width: 311
+        height: 209
+      alignment: 9
+      pivot: {x: 0.155, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80eb2451b1c6e22428f42838e7508d32
+      internalID: 100732975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_red_15
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 45
+        width: 295
+        height: 219
+      alignment: 9
+      pivot: {x: 0.175, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6028e05cd7a3b40a9cc5f0d9ab49f8
+      internalID: -662760002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_red_16
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 26
+        width: 126
+        height: 238
+      alignment: 9
+      pivot: {x: 0.51, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d2f6f9d4cb80e46ab9021f64f12afe
+      internalID: 1639285472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_red_17
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 23
+        width: 141
+        height: 241
+      alignment: 9
+      pivot: {x: 0.61, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556a7c77eaade1b458ead3f5426b3613
+      internalID: 114612698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_red_18
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 23
+        width: 148
+        height: 240
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a4f5180eaecc6439ebda8bebf36286
+      internalID: 1409890539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ava_red_0: 1237372285
+      Ava_red_1: -1915381692
+      Ava_red_10: 1153970032
+      Ava_red_11: -1749201912
+      Ava_red_12: 906565548
+      Ava_red_13: -1822600820
+      Ava_red_14: 100732975
+      Ava_red_15: -662760002
+      Ava_red_16: 1639285472
+      Ava_red_17: 114612698
+      Ava_red_18: 1409890539
+      Ava_red_2: 21121376
+      Ava_red_3: 1147762218
+      Ava_red_4: 1179770619
+      Ava_red_5: 1737751826
+      Ava_red_6: -901400524
+      Ava_red_7: -1287362555
+      Ava_red_8: -2001037584
+      Ava_red_9: -1303484995
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

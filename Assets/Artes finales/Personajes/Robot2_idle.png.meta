@@ -1,0 +1,400 @@
+fileFormatVersion: 2
+guid: 526cb645ec166864d8f5cc188c3b2993
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Robot2_idle_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 648
+        width: 194
+        height: 296
+      alignment: 9
+      pivot: {x: 0.51053566, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b814784a3c2934f8892a54149ac1be
+      internalID: 1153603612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_idle_1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 651
+        width: 190
+        height: 293
+      alignment: 9
+      pivot: {x: 0.5209227, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd61fef1abb304e49a05d20d5cdc8d16
+      internalID: 1288415469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_idle_2
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 648
+        width: 175
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5656316, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbd554feaf141844b390d2af7a73b7d
+      internalID: -1253122499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_idle_3
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 647
+        width: 165
+        height: 297
+      alignment: 9
+      pivot: {x: 0.59973997, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de10206f0b1210040b6564a4e48d639c
+      internalID: -692339425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_idle_4
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 648
+        width: 180
+        height: 296
+      alignment: 9
+      pivot: {x: 0.54978776, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9af2d9c21069c4395d4fbb863919e9
+      internalID: -1531008781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_idle_5
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 651
+        width: 205
+        height: 293
+      alignment: 9
+      pivot: {x: 0.4827839, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d952a1dc4f6c2488390bfbd1d960b4
+      internalID: -1216283270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_idle_6
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 650
+        width: 215
+        height: 294
+      alignment: 9
+      pivot: {x: 0.46026072, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d244765cd9ad974384c7a116062fd27
+      internalID: -516954424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_idle_7
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 279
+        width: 205
+        height: 289
+      alignment: 9
+      pivot: {x: 0.48777303, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999eab0f40affb34ba1425aeefc1d407
+      internalID: 1699474384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_idle_8
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 272
+        width: 180
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5499983, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c2e5c5a9a09ef4f80715e65698f20c
+      internalID: -262194975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_idle_9
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 272
+        width: 179
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5530764, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc0cc8b89d2f2f4e8ceb13465e00637
+      internalID: 1428923675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_idle_10
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 273
+        width: 190
+        height: 295
+      alignment: 9
+      pivot: {x: 0.5211943, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886a2d50b04b30846af4e74b372f9b09
+      internalID: -482247970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot2_idle_11
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 270
+        width: 199
+        height: 298
+      alignment: 9
+      pivot: {x: 0.49714023, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98286d9b8949bd840877f81856553076
+      internalID: 1631534736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Robot2_idle_0: 1153603612
+      Robot2_idle_1: 1288415469
+      Robot2_idle_10: -1253122499
+      Robot2_idle_11: -692339425
+      Robot2_idle_12: -1242100403
+      Robot2_idle_2: -1531008781
+      Robot2_idle_3: -1216283270
+      Robot2_idle_4: -516954424
+      Robot2_idle_5: 1699474384
+      Robot2_idle_6: -262194975
+      Robot2_idle_7: 1428923675
+      Robot2_idle_8: -482247970
+      Robot2_idle_9: 1631534736
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 553098c617aa5e9449e295d1dd860fbe
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Balsamiq Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 30e17725cb031354a96ac5163739d738, type: 3}
+  - {fileID: 12800000, guid: e0a382cd6fe4cf64185d93ef148c1486, type: 3}
+  - {fileID: 12800000, guid: 2c42bfcbb1f32ce4886a3cbfb6d03004, type: 3}
+  - {fileID: 12800000, guid: c07b09ad147ba5342970b80c1c504dbf, type: 3}
+  - {fileID: 12800000, guid: 06bbc92068b2d994191f5489f89e2fcc, type: 3}
+  - {fileID: 12800000, guid: b57ce095106bb524e831d85ff38db3d7, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,777 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9175578356478188445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 56, y: 296}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -9175578356478188445}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 4639899154740402297}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -9175578356478188445}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 4269605697488774209}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: CAPIARCE
+  dialogueLine: "Yo tambi\xE9n ser\xEDa mec\xE1nico si tuviera pulgares..."
+  spriteR: {fileID: 21300000, guid: ce19919868bcf454cac4cd3e9d012ee0, type: 3}
+  spriteL: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 638029f955e09a54a954206a9ad0856b, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  textNotes: 
+--- !u!114 &-7060134629664327690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1176, y: -152}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -7060134629664327690}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -1018216052858019229}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -7060134629664327690}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -1539570348923340781}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: AVA
+  dialogueLine: "Claro, voy a ense\xF1arle mi libreta."
+  spriteR: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteL: {fileID: 21300000, guid: 715d2c7cafa75924fbe48e35996b08c7, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 638029f955e09a54a954206a9ad0856b, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  textNotes: 
+--- !u!114 &-6953839383016490005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 280, y: 72}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -6953839383016490005}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -1539570348923340781}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -6953839383016490005}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 1704154274262619091}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: CAPIARCE
+  dialogueLine: "Oh, entonces funciona as\xED. Interesante..."
+  spriteR: {fileID: 21300000, guid: 4708d7e1dd14d3a47b70ca77ea659d2d, type: 3}
+  spriteL: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 638029f955e09a54a954206a9ad0856b, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 3afbe40907d6aee4d96db50427c3640d, type: 3}
+  textNotes: Con la llave puedo atacar a los robots pulsando click izquierdo.
+--- !u!114 &-6003946439441474371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 504, y: -152}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -6003946439441474371}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -614272479120021263}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -6003946439441474371}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 6969976286902181976}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: ????
+  dialogueLine: "Disc\xFAlpame. Los humanos no suelen adentrarse en esta zona del
+    bosque. Te est\xE1bamos esperando. Perm\xEDteme que me presente, soy Capiarce
+    el jefe de la zona este del bosque. "
+  spriteR: {fileID: 21300000, guid: adef6f317856a104fa465ddc498ec267, type: 3}
+  spriteL: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 638029f955e09a54a954206a9ad0856b, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  textNotes: 
+--- !u!114 &-3451332171438922047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 56, y: -152}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -3451332171438922047}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -235397657425834305}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -3451332171438922047}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -614272479120021263}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: ????
+  dialogueLine: "\xA1Humana! \xBFQu\xE9 haces aqu\xED? \xBFAcaso eres Ava?"
+  spriteR: {fileID: 21300000, guid: 5a4efefa69c674e4e90cfeab16126d8e, type: 3}
+  spriteL: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 638029f955e09a54a954206a9ad0856b, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  textNotes: 
+--- !u!114 &-1539570348923340781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 56, y: 72}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -1539570348923340781}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -7060134629664327690}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -1539570348923340781}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -6953839383016490005}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: 
+  dialogueLine: 
+  spriteR: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteL: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 3afbe40907d6aee4d96db50427c3640d, type: 3}
+  textNotes: Con la llave puedo atacar a los robots pulsando click izquierdo.
+--- !u!114 &-1018216052858019229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 952, y: -152}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -1018216052858019229}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 6969976286902181976}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -1018216052858019229}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -7060134629664327690}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: CAPIARCE
+  dialogueLine: "S\xED. Me han dicho que eres una gran mec\xE1nica. \xBFPuedes explicarme
+    tus habilidades?"
+  spriteR: {fileID: 21300000, guid: bd5d60356ee2a6f44a34ad430c5d68b1, type: 3}
+  spriteL: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 638029f955e09a54a954206a9ad0856b, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  textNotes: 
+--- !u!114 &-614272479120021263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 280, y: -152}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: -614272479120021263}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -3451332171438922047}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -614272479120021263}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -6003946439441474371}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: AVA
+  dialogueLine: "S\xED, soy yo. \xBFC\xF3mo lo ha sabido?"
+  spriteR: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteL: {fileID: 21300000, guid: 1c0eecd091941f746ba2719a038088fa, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 638029f955e09a54a954206a9ad0856b, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  textNotes: 
+--- !u!114 &-235397657425834305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db3fd0e2172fd2428eeabeecc1b7739, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -200, y: -152}
+  ports:
+    keys:
+    - exit
+    values:
+    - _fieldName: exit
+      _node: {fileID: -235397657425834305}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -3451332171438922047}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  exit: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c04ec1ec85a884fb75aeacc7ee8c17, type: 3}
+  m_Name: DialogueGraph 1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -235397657425834305}
+  - {fileID: -614272479120021263}
+  - {fileID: -6003946439441474371}
+  - {fileID: -1539570348923340781}
+  - {fileID: -6953839383016490005}
+  - {fileID: 1704154274262619091}
+  - {fileID: 4639899154740402297}
+  - {fileID: -9175578356478188445}
+  - {fileID: 900453740106720097}
+  - {fileID: -3451332171438922047}
+  - {fileID: -1018216052858019229}
+  - {fileID: 6969976286902181976}
+  - {fileID: -7060134629664327690}
+  - {fileID: 4269605697488774209}
+  - {fileID: 2392418407959605761}
+  current: {fileID: 900453740106720097}
+--- !u!114 &900453740106720097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 504, y: 296}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 900453740106720097}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 4269605697488774209}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 900453740106720097}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 2392418407959605761}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: AVA
+  dialogueLine: "\xA1All\xE1 voy!"
+  spriteR: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteL: {fileID: 21300000, guid: 715d2c7cafa75924fbe48e35996b08c7, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 638029f955e09a54a954206a9ad0856b, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  textNotes: 
+--- !u!114 &1704154274262619091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 504, y: 72}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 1704154274262619091}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -6953839383016490005}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 1704154274262619091}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 4639899154740402297}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: 
+  dialogueLine: 
+  spriteR: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteL: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 0d3c5d290a089fb4b9887934b2ce1d21, type: 3}
+  textNotes: Con la red puedo atrapar en el aire la basura que tiran los robots.
+    Solo tengo que pulsar click derecho.
+--- !u!114 &2392418407959605761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 824a701b8f129164b968a235619b1b64, type: 3}
+  m_Name: Stop
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 728, y: 296}
+  ports:
+    keys:
+    - entry
+    values:
+    - _fieldName: entry
+      _node: {fileID: 2392418407959605761}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 900453740106720097}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+--- !u!114 &4269605697488774209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 280, y: 296}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 4269605697488774209}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -9175578356478188445}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 4269605697488774209}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 900453740106720097}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: CAPIARCE
+  dialogueLine: "Ejem... Bueno, en fin, necesitamos que limpies esta zona. \xA1Ah!
+    Y ten cuidado porque est\xE1 infestado de robots peligrosos. No te olvides de
+    usar tus herramientas."
+  spriteR: {fileID: 21300000, guid: adef6f317856a104fa465ddc498ec267, type: 3}
+  spriteL: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 638029f955e09a54a954206a9ad0856b, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  textNotes: 
+--- !u!114 &4639899154740402297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 728, y: 72}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 4639899154740402297}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 1704154274262619091}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 4639899154740402297}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -9175578356478188445}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: CAPIARCE
+  dialogueLine: Ten cuidado no molestes a las mariposas.
+  spriteR: {fileID: 21300000, guid: adef6f317856a104fa465ddc498ec267, type: 3}
+  spriteL: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 638029f955e09a54a954206a9ad0856b, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 0d3c5d290a089fb4b9887934b2ce1d21, type: 3}
+  textNotes: Con la red puedo atrapar en el aire la basura que tiran los robots.
+    Solo tengo que pulsar click derecho.
+--- !u!114 &6969976286902181976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91449bf4ee42caa4bba8117b507972c0, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 728, y: -152}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 6969976286902181976}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -6003946439441474371}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 6969976286902181976}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -1018216052858019229}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 0
+  exit: 0
+  speakerName: AVA
+  dialogueLine: "Un placer se\xF1or Capiarce. Pollitoso y los esp\xEDritus me dijeron
+    que viniera aqu\xED y le buscara. \xBFNecesit\xE1is ayuda?"
+  spriteR: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  spriteL: {fileID: 21300000, guid: 82c613d1c295cbb4c82d6eecc8623693, type: 3}
+  spriteBubble: {fileID: 21300000, guid: 638029f955e09a54a954206a9ad0856b, type: 3}
+  spriteNotes: {fileID: 21300000, guid: 96e6aa78745e9a94cae0801d9ffbd1f3, type: 3}
+  textNotes: 

@@ -1,0 +1,575 @@
+fileFormatVersion: 2
+guid: 4c5930fd6a0fe1d42b1395399e8cf728
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ava_saltando_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 776
+        width: 154
+        height: 232
+      alignment: 9
+      pivot: {x: 0.49, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f2d83e214cbf04ab0ab336310cabb6
+      internalID: -973950023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_saltando_1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 791
+        width: 157
+        height: 217
+      alignment: 9
+      pivot: {x: 0.482, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab0972c3c04bc04e8f1c9ad599f1705
+      internalID: 396834450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_saltando_2
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 796
+        width: 154
+        height: 211
+      alignment: 9
+      pivot: {x: 0.485, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac424ee84a013340aa01027f136b381
+      internalID: 301954138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_saltando_3
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 774
+        width: 154
+        height: 233
+      alignment: 9
+      pivot: {x: 0.482, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1162f69d682104793f2a6510a3865b
+      internalID: 65920613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_saltando_4
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 772
+        width: 161
+        height: 236
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1b8ee0770476147927b70ff85799e8
+      internalID: -1430276993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_saltando_5
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 770
+        width: 169
+        height: 238
+      alignment: 9
+      pivot: {x: 0.42, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0057497f14454c2489957ae1ff17b084
+      internalID: -1473765842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_saltando_6
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 772
+        width: 156
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711003eb55f2c404a8611e190700d93e
+      internalID: 274540812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_saltando_7
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 781
+        width: 157
+        height: 227
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887b44cc57869494ea86e2f9c7fd265d
+      internalID: -1629506025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_saltando_8
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 782
+        width: 167
+        height: 225
+      alignment: 9
+      pivot: {x: 0.52, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ef29f76065498479e3a044c9dd2b42
+      internalID: -1792924287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_saltando_9
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 776
+        width: 166
+        height: 232
+      alignment: 9
+      pivot: {x: 0.515, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2b214bc37eacf40aa5a89c6f0cb5b1
+      internalID: 1705542958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_saltando_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 493
+        width: 171
+        height: 233
+      alignment: 9
+      pivot: {x: 0.495, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff03d6e95ae67b4ebb818d44e52caf0
+      internalID: 1154256907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_saltando_11
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 484
+        width: 159
+        height: 242
+      alignment: 9
+      pivot: {x: 0.495, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b922200f7b9d4c34086603c5dbe1ceec
+      internalID: -1191872235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_saltando_12
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 478
+        width: 159
+        height: 248
+      alignment: 9
+      pivot: {x: 0.495, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b1d89a5aa81944db846aa499f281e0
+      internalID: 501134428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_saltando_13
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 468
+        width: 159
+        height: 258
+      alignment: 9
+      pivot: {x: 0.495, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e53b079db40e3546987299bffcad387
+      internalID: -1115494351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_saltando_14
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 456
+        width: 134
+        height: 270
+      alignment: 9
+      pivot: {x: 0.475, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e54d1923d12f704faaa0373aa974d59
+      internalID: 905336792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_saltando_15
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 514
+        width: 154
+        height: 211
+      alignment: 9
+      pivot: {x: 0.475, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438fadf8c6fb3814cb83c7f1e29ff71b
+      internalID: -1911336022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_saltando_16
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 514
+        width: 158
+        height: 211
+      alignment: 9
+      pivot: {x: 0.465, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca872af678077048a41413b70a0ff91
+      internalID: -105634184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_saltando_17
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 516
+        width: 158
+        height: 209
+      alignment: 9
+      pivot: {x: 0.46, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1897a9eca2f6ed949a3b26b7e36319ab
+      internalID: -1389342572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_saltando_18
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 514
+        width: 154
+        height: 211
+      alignment: 9
+      pivot: {x: 0.475, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e767b655181ec14fbd79e28932916ed
+      internalID: 1020983253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ava_saltando_19
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 512
+        width: 154
+        height: 214
+      alignment: 9
+      pivot: {x: 0.475, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a592246c10b6083408ec801f08656026
+      internalID: -1098067445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ava_saltando_0: -973950023
+      Ava_saltando_1: 396834450
+      Ava_saltando_10: 1154256907
+      Ava_saltando_11: -1191872235
+      Ava_saltando_12: 501134428
+      Ava_saltando_13: -1115494351
+      Ava_saltando_14: 905336792
+      Ava_saltando_15: -1911336022
+      Ava_saltando_16: -105634184
+      Ava_saltando_17: -1389342572
+      Ava_saltando_18: 1020983253
+      Ava_saltando_19: -1098067445
+      Ava_saltando_2: 301954138
+      Ava_saltando_3: 65920613
+      Ava_saltando_4: -1430276993
+      Ava_saltando_5: -1473765842
+      Ava_saltando_6: 274540812
+      Ava_saltando_7: -1629506025
+      Ava_saltando_8: -1792924287
+      Ava_saltando_9: 1705542958
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

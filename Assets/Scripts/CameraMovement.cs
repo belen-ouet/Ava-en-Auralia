@@ -6,20 +6,20 @@ public class CameraMovement : MonoBehaviour
 {
 
     public Transform target;
-    Vector3 offset;
     public float smoothing = 5f;
 
-    // Start is called before the first frame update
+    private Vector3 offset;
+
     void Start()
     {
         offset = transform.position - target.position;
+        offset.y = 0f; // Mantener la misma altura relativa
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
-        transform.position = target.position + offset;
-        transform.position = Vector3.Lerp(transform.position, target.position + offset, smoothing * Time.deltaTime);
-
+        Vector3 targetPosition = target.position + offset;
+        targetPosition.y = transform.position.y; // Mantener la altura actual de la cámara
+        transform.position = Vector3.Lerp(transform.position, targetPosition, smoothing * Time.deltaTime);
     }
 }
